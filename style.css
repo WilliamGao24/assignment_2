@@ -1,4 +1,9 @@
 .title{
-    background-color: red;
-    width: 500px;
+    background-color: white;
+    width: 150px;
+    font-size: large;
+}
+
+body{
+    background-color: lightblue;
 }
