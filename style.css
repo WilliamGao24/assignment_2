@@ -1,9 +1,31 @@
-.title{
-    background-color: white;
-    width: 150px;
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0;
+}
+
+.title {
     font-size: large;
 }
 
-body{
-    background-color: lightblue;
+/* Removed absolute positioning from .login */
+.login {
+    /* Flexbox will handle positioning */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .title, .login {
+        text-align: center;
+        margin: 10px 0;
+    }
 }
