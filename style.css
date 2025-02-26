@@ -1,33 +1,60 @@
 body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lightblue;
-    padding: 20px;
     margin: 0;
+    padding: 20px;
+    background: #141E30;
+    font-family: 'Geneva';  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title {
-    font-size: large;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    text-align:left;
+    font-size: 20px;
+    color: #e50914;
 }
-
 
 .login {
-
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
+
 
 .heroSection {
     width: 90vw;
-    margin: 0 auto;
+    margin-top: 100px;
+    max-height: 500px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
-.poster{
+.poster {
     display: block;
-    margin: 0 auto;
     width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.featureSection {
+    width: 90vw;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.featureSection img {
+    flex: 1;
+    border-radius: 8px;
+    object-fit: cover;
+    width: calc(33.33% - 10px);
     height: auto;
 }
