@@ -1,5 +1,4 @@
 body {
-    padding: 20px;
     background: #141E30;
     display: flex;
     flex-direction: column;
@@ -9,16 +8,16 @@ body {
 .title {
     position: absolute;
     top: 0px;
-    left: 20px;
+    left: 40px;
     text-align:left;
-    font-size: 20px;
+    font-size: 30px;
     color: #e50914;
     font: geneva;
 }
 
 .login {
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 20px;
     color: white;
 }
@@ -29,7 +28,7 @@ body {
 
 .heroSection {
     width: 90vw;
-    margin-top: 100px;
+    margin-top: 130px;
     max-height: 500px;
     margin-bottom: 50px;
     display: flex;
@@ -65,9 +64,11 @@ body {
 }
 
 .footer {
-    width: 100%;
-    background-color: #1a3466;
+    width: 98.5vw;
+    background-color: #172e55;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    height: 7rem;
+    margin: 0rem;
+    padding: 0rem;
 }
