@@ -67,8 +67,22 @@ body {
     width: 98.5vw;
     background-color: #172e55;
     color: white;
-    text-align: center;
-    height: 7rem;
+    height: 4rem;
     margin: 0rem;
     padding: 0rem;
+}
+.footerText {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem;
+    padding: 0rem;
+    align-items: center;
+}
+.copyright {
+    font-size: 20px;
+    margin-left: 20vw;
+}
+.contact {
+    font-size: 20px;
+    margin-right: 20vw;
 }
