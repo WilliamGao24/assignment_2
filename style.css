@@ -8,16 +8,16 @@ body {
 .title {
     position: absolute;
     top: 0px;
-    left: 40px;
+    left: 45px;
     text-align:left;
-    font-size: 30px;
+    font-size: 35px;
     color: #e50914;
     font: geneva;
 }
 
 .login {
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 20px;
     color: white;
 }
@@ -28,7 +28,7 @@ body {
 
 .heroSection {
     width: 90vw;
-    margin-top: 130px;
+    margin-top: 150px;
     max-height: 500px;
     margin-bottom: 50px;
     display: flex;
