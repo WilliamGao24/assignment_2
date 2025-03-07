@@ -9,7 +9,7 @@ body {
     position: absolute;
     top: 0px;
     left: 45px;
-    text-align:left;
+    text-align: left;
     font-size: 35px;
     color: #e50914;
     font: geneva;
@@ -22,11 +22,12 @@ body {
     color: white;
 }
 
-.loginButton, .registerButton {
+.login-button,
+.register-button {
     border-radius: 8px;
 }
 
-.heroSection {
+.hero-section {
     width: 90vw;
     margin-top: 150px;
     max-height: 500px;
@@ -42,14 +43,14 @@ body {
     height: auto;
 }
 
-.featureSection {
+.feature-section {
     width: 90vw;
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-.featureSection img {
+.feature-section img {
     display: flex;
     border-radius: 8px;
     object-fit: cover;
@@ -57,7 +58,12 @@ body {
     height: auto;
 }
 
-.featureTitle {
+.feature-section img:hover {
+    transform: scale(1.02);
+    transition: transform 0.34s;
+}
+
+.feature-title {
     font-size: 50px;
     margin-bottom: 10px;
     color: white
@@ -71,17 +77,20 @@ body {
     margin: 0rem;
     padding: 0rem;
 }
-.footerText {
+
+.footer-text {
     display: flex;
     justify-content: space-between;
     margin: 0rem;
     padding: 0rem;
     align-items: center;
 }
+
 .copyright {
     font-size: 20px;
     margin-left: 20vw;
 }
+
 .contact {
     font-size: 20px;
     margin-right: 20vw;
